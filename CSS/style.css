@@ -74,15 +74,17 @@ section {
 	float: right;
 	padding-right: 45px;
 }
-#columnone {
+.columnone {
 	background-color: #39252E;
 	color: white;
 	flex-basis: 50%;
 	text-align: center;
+	margin-top: 15px;
 }
-#columntwo {
+.columntwo {
 	background-color: #39252E;
 	flex-basis: 50%;
+	margin-top: 15px;
 }
 .row {
 	display: flex;
@@ -90,9 +92,11 @@ section {
 	justify-content: center;
 	position: relative;
 	background-color: #1c1216;
+	margin-top: 15px;
 }
 .columnthree {
-	background-color: #ffff;
+	background-color: #150C11;
+	color: white;
 	width: 30%;
 	display: flex;
 	flex-direction: column;
@@ -144,9 +148,9 @@ a:hover {
     left: 10%;
 	height: 55px;
 	width: 50px;
-    border: 1px solid #ffff;
-    background-color: #7C4161;
-    color: #39252E;
+    border: 1px solid #7C4161;
+    background-color: #39252E;
+    color: #7C4161;
     padding: 5px;
     border-radius: 50%;
     cursor: pointer;
@@ -159,9 +163,9 @@ a:hover {
     right: 10%;
 	height: 55px;
 	width: 50px;
-    border: 1px solid #ffff;
-    background-color: #7C4161;
-    color: #39252E;
+    border: 1px solid #7C4161;
+    background-color: #39252E;
+    color: #7C4161;
     padding: 5px;
     border-radius: 50%;
     cursor: pointer;
