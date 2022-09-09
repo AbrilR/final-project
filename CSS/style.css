@@ -1,5 +1,5 @@
 body {
-	background-color: #ffff; /*#39252E;*/
+	background-color: #39252E; /*#39252E;*/
 	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
 	line-height: 1.5;
 	color: black;
@@ -42,11 +42,11 @@ li.nav a {
     font-weight: bold;
 }
 li.nav a:hover:not(.active) {
-    background-color: #521F24;
+    background-color: #30588C;
     color: #ffff;
 }
 #pageheader {
-	background-color: #757172;
+	background-color: #39252E;
 	min-height: 40vh;
 }
 #rowone {
@@ -55,7 +55,7 @@ li.nav a:hover:not(.active) {
 }
 main {
 	background-color: #39252E;
-	color: white;
+	color: #ffff;
 	height: 30%;
 	flex-basis: 100%;
 	text-align: center;
@@ -66,7 +66,6 @@ main {
 	min-height: 420px;
 }
 section {
-	flex-basis: 25%;
 	padding: 45px;
 }
 .video {
@@ -78,7 +77,7 @@ section {
 }
 .columnone {
 	background-color: #39252E;
-	color: white;
+	color: #ffff;
 	flex-basis: 50%;
 	text-align: center;
 	margin-top: 15px;
@@ -98,7 +97,7 @@ section {
 }
 .columnthree {
 	background-color: #150C11;
-	color: white;
+	color: #ffff;
 	width: 30%;
 	display: flex;
 	flex-direction: column;
@@ -112,11 +111,11 @@ img {
 #columnfour {
 	background-color: #39252E;
 	flex-basis: 50%;
-	color: white;
+	color: #ffff;
 }
 #columnfive {
 	background-color: #39252E;
-	color: white;
+	color: #ffff;
 	flex-basis: 50%;
 }
 .rowcarousel {
@@ -132,15 +131,15 @@ img {
 }
 #pagefooter {
 	background-color: #301f26;
-	color: white;
+	color: #ffff;
 	text-align: center;
 	padding: 15px;
 }
 a {
-	color: slategray;
+	color: #ffff;
 }
 a:hover {
-	color:  lightslategray;
+	color:  #30588C;
 }
 .arrow-left {
     font-size: 40px;
@@ -202,4 +201,9 @@ h3 {
 }
 h2#music {
 	padding-top: 50px;
+}
+#logo {
+	height: 30px;
+	width: 530;
+	padding: 15px;
 }
