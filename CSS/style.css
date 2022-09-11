@@ -27,7 +27,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #301f26;
+    background-color: #7C4161;
 }
 li.nav {
     float: right;
@@ -130,13 +130,17 @@ img {
 	padding: 15px;
 }
 #pagefooter {
-	background-color: #301f26;
+	background-color: #7C4161;
 	color: #ffff;
 	text-align: center;
-	padding: 15px;
+	padding-top: 10px;
+	padding-bottom: 10px;
 }
-a {
+a.socials {
 	color: #ffff;
+	padding-left: 20px;
+	padding-right: 20px;
+	font-size: 20px;
 }
 a:hover {
 	color:  #30588C;
