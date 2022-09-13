@@ -1,6 +1,6 @@
 body {
 	background-color: #39252E; /*#39252E;*/
-	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+	font-family: 'Raleway', sans-serif;
 	line-height: 1.5;
 	color: black;
 	margin: 0;
@@ -198,7 +198,7 @@ h2#bio {
 	font-size: 40px;
     font-weight: bold;
 }
-h3 {
+h3#nickname {
 	color: #C0C0C0;
 	padding: 5px;
 	margin: 0;
@@ -211,6 +211,7 @@ h2#music {
 	width: 530;
 	padding: 15px;
 }
+/*about*/
 .rowcreators {
 	display: flex;
 	flex-direction: row;
@@ -275,4 +276,35 @@ h2#music {
 {
 	font-size: 25px;
 	display: block;
+}
+/*contact*/
+.contact {
+	border-radius: 5px;
+	background-color: #7C4161;
+	padding: 20px;
+	margin-right: 45px;
+	margin-bottom: 15px;
+}
+input[type=text], select, textarea {
+	background-color: #1C1216;
+	width: 100%;
+	padding: 10px;
+	border: 1px solid #30588C;
+	border-radius: 5px;
+	box-sizing: border-box;
+	margin-top: 5px;
+	margin-bottom: 15px;
+	resize: vertical;
+	color: white;
+}
+input[type=submit] {
+	background-color: #30588C;
+	color: white;
+	padding: 15px 20px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+}
+input[type=submit]:hover {
+	background-color: #294d7a;
 }
