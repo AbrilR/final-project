@@ -213,11 +213,18 @@ p#biodescription {
 h2#music {
 	padding-top: 50px;
 }
-#logo {
+#arcanetitle {
 	height: 30px;
 	width: 530;
 	padding: 15px;
-}
+} 
+/* Extra logo
+#logo {
+	margin-left: 15px;
+	height: 50px;
+	width: 45px;
+	padding: 5px;
+} */
 /*about*/
 .rowcreators {
 	display: flex;
@@ -288,11 +295,15 @@ h2#music {
 .contact {
 	border-radius: 5px;
 	background-color: #5b2f47;
+	color: #ffff;
 	padding: 15px;
 	margin-top: 15px;
 	margin-bottom: 15px;
 	margin-left: 45px;
 	margin-right: 45px;
+}
+input::placeholder, textarea::placeholder {
+	color: #ffff;
 }
 input[type=text], select, textarea {
 	background-color: #150C11;
@@ -304,11 +315,11 @@ input[type=text], select, textarea {
 	margin-top: 5px;
 	margin-bottom: 15px;
 	resize: vertical;
-	color: white;
+	color: #ffff;
 }
 input[type=submit] {
 	background-color: #30588C;
-	color: white;
+	color: #ffff;
 	padding: 15px 20px;
 	border: none;
 	border-radius: 4px;
