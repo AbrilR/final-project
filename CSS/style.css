@@ -1,6 +1,8 @@
+* {
+	font-family: 'Raleway', sans-serif;
+}
 body {
 	background-color: #39252E; /*#39252E;*/
-	font-family: 'Raleway', sans-serif;
 	line-height: 1.5;
 	color: black;
 	margin: 0;
@@ -197,11 +199,16 @@ h2#bio {
 	margin-bottom: 0;
 	font-size: 40px;
     font-weight: bold;
+	font-family: 'Finger Paint', cursive;
 }
 h3#nickname {
 	color: #C0C0C0;
 	padding: 5px;
 	margin: 0;
+	font-family: 'Finger Paint', cursive;
+}
+p#biodescription {
+	font-family: 'Finger Paint', cursive;
 }
 h2#music {
 	padding-top: 50px;
@@ -280,16 +287,18 @@ h2#music {
 /*contact*/
 .contact {
 	border-radius: 5px;
-	background-color: #7C4161;
-	padding: 20px;
-	margin-right: 45px;
+	background-color: #5b2f47;
+	padding: 15px;
+	margin-top: 15px;
 	margin-bottom: 15px;
+	margin-left: 45px;
+	margin-right: 45px;
 }
 input[type=text], select, textarea {
-	background-color: #1C1216;
+	background-color: #150C11;
 	width: 100%;
 	padding: 10px;
-	border: 1px solid #30588C;
+	border: 1px solid #7C4161;
 	border-radius: 5px;
 	box-sizing: border-box;
 	margin-top: 5px;
@@ -306,5 +315,5 @@ input[type=submit] {
 	cursor: pointer;
 }
 input[type=submit]:hover {
-	background-color: #294d7a;
+	background-color: #274972;
 }
